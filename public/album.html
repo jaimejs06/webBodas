@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/heic2any"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Álbum de fotos</title>
+</head>
+<body>
+
+    <div class="top-banner">
+      <h1>Carlos & Beni</h1>
+      <h3> 21 de Junio de 2025</h3>
+    </div>
+
+    <div class="container">
+      <h2>📸 Álbum de fotos 📸</h2>
+      <p>¡Pulsa en subir fotos, selecciona las fotos de tu galería y ayudanos a recordar este día para siempre!</p>
+      
+      <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="fileInput" class="input" multiple accept="image/*" />
+        <button type="submit" class="upload-button">Subir Fotos</button>
+        
+      </form>
+      <div id="conversionMessage" style="display:none; color: #007BFF; margin-top: 1rem;">
+        Subiendo imágenes, por favor espera...</div>
+      <div id="mensaje" style="color: #008d07; margin-top: 1rem;"></div>  <!-- Mensaje de subida -->
+      <div id="loadingMessage">Cargando imágenes...</div>
+      
+
+      <div id="uploadedGallery" class="gallery">
+        <!-- Aquí se cargarán las imágenes -->
+      </div>
+    </div>
+
+
+  <!-- Script que sube y recupera las imagenes del album -->
+  <script src="script.js"></script>
+  
+</body>
+</html>

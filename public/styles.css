@@ -1,0 +1,114 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   background: #fbfcf8;
+   color: #333;
+   text-align: center;
+}
+  
+.container {
+   max-width: 900px;
+   margin: auto;
+   padding: 1.5rem;
+}
+
+h1 {
+   font-family: 'The Nautigal';
+   font-size: 58px;
+   font-weight: bold;
+   font-style: italic;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+h2 {
+   font-family: 'Lucida Sans';
+   font-size: 38px;
+   font-weight: bold;
+   font-style: italic;
+   margin-bottom: 20px;
+   margin-top: 5px;
+}
+
+h3 {
+   font-size: 20px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+  
+.upload-button {
+   padding: 12px 22px;
+   font-size: 1.2rem;
+   background-color: #8dc2a3;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+}
+  
+.upload-button:hover {
+  background-color: #bdd5c7;
+}
+  
+.gallery {
+   margin-top: 2rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+   gap: 3rem 7rem;
+   justify-content: center; /* centra las columnas en el contenedor */
+   align-content: center;
+}
+  
+.gallery div.image-container {
+   width: 320px;    /* ancho fijo */
+   height: 260px;   /* alto fijo */
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   background-color: #f0f0f0; /* color de fondo para espacios vacíos */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   margin: 0 auto;
+}
+
+.gallery div.image-container img {
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: contain; /* mantiene proporción sin recortar */
+   display: block;
+}
+
+.top-banner {
+   width: 100%;
+   background-color: #bdd5c7;
+   padding: 10px 0;
+   text-align: center;
+   font-size: 2.2rem;
+   font-weight: bold;
+   color: #34341c;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   z-index: 10;
+}
+
+input {
+    padding: 10px 8px;
+    border-radius: 8px;
+    border: 2px solid #8dc2a3;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#loadingMessage {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: left;
+  margin-top: 6rem;
+  display: none; /* oculto por defecto */
+}
