@@ -12,17 +12,17 @@ Aquí puedes ver una demo de cómo funciona la app:
 
 ### Código de acceso
 <p>
-  <img src="screenshots/1.png" width="200" style="margin-right:10px;" />
+  <img src="screenshots/1.png" width="400" style="margin-right:10px;" />
 </p>
 
 ### Subida de Imagen
 <p>
-  <img src="screenshots/2.png" width="200" style="margin-right:10px;" />
+  <img src="screenshots/2.png" width="400" style="margin-right:10px;" />
 </p>
 
 ### Galería de Imágenes
 <p>
-  <img src="screenshots/3.png" width="200" style="margin-right:10px;" />
+  <img src="screenshots/3.png" width="400" style="margin-right:10px;" />
 </p>
 
 
