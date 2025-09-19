@@ -10,14 +10,20 @@ Es totalmente responsive pudiendo acceder tanto desde el navegador móvil como d
 
 Aquí puedes ver una demo de cómo funciona la app:
 
-### Página de Inicio
-![Inicio](screenshots/inicio.png)
+### Código de acceso
+<p>
+  <img src="screenshots/1.PNG" width="200" style="margin-right:10px;" />
+</p>
 
 ### Subida de Imagen
-![Subida](screenshots/subida.png)
+<p>
+  <img src="screenshots/2.PNG" width="200" style="margin-right:10px;" />
+</p>
 
 ### Galería de Imágenes
-![Galería](screenshots/galeria.png)
+<p>
+  <img src="screenshots/3.PNG" width="200" style="margin-right:10px;" />
+</p>
 
 
 ---
