@@ -16,7 +16,7 @@ if (!fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir);
 
 const app = express();
 const PORT = 3000;
-const ACCESS_CODE = "CyB2025";
+const ACCESS_CODE = "";
 
 // === Multer en memoria ===
 const upload = multer({ storage: multer.memoryStorage() });
